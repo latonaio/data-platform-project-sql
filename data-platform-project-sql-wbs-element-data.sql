@@ -51,10 +51,7 @@ CREATE TABLE `data_platform_project_wbs_element_data`
 	`ForecastedEndDate`              varchar(80) DEFAULT NULL,
 	`ActualEndDate`                  varchar(80) DEFAULT NULL,
 	`BasicDuration`                  varchar(7) DEFAULT NULL,
-
-
-
-	`BasicDurationUnit`              varchar(3) DEFAULT NULL,
+    `BasicDurationUnit`              varchar(3) DEFAULT NULL,
 	`ForecastedDuration`             varchar(7) DEFAULT NULL,
 	`ForecastedDurationUnit`         varchar(3) DEFAULT NULL,
 	`ActualDuration`                 varchar(7) DEFAULT NULL,
@@ -96,6 +93,8 @@ CREATE TABLE `data_platform_project_wbs_element_data`
 	`FreeDefinedIndicator1`          tinyint(1) DEFAULT NULL,
 	`FreeDefinedIndicator2`          tinyint(1) DEFAULT NULL,
     PRIMARY KEY (`WBSElementInternalID`)
-    CONSTRAINT `SapProjectWbsElementData_fk` FOREIGN KEY (`ProjectInternalID`) REFERENCES `sap_project_project_data` (`ProjectInternalID`)
-) ENGINE = InnoDB
+	
+    CONSTRAINT `DPFMProjectWbsElementData_fk` FOREIGN KEY (`ProjectInternalID`) REFERENCES `data_platform_project_project_data` (`ProjectInternalID`)
+
+)ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4;

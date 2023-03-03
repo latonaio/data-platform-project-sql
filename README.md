@@ -1,5 +1,5 @@
 # data-platform-project-sql  
-data-platform-project-sql は、データ連携基盤において、品目在庫データを維持管理するSQLテーブルを作成するためのレポジトリです。  
+data-platform-project-sql は、データ連携基盤において、プロジェクトデータを維持管理するSQLテーブルを作成するためのレポジトリです。  
 
 ## 前提条件  
 data-platform-project-sql は、データ連携にあたり、API を利用し、本レポジトリ の sql 設定ファイルの内容は、下記 URL の API 仕様を前提としています。  
