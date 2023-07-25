@@ -10,7 +10,10 @@ https://api.XXXXXXXX.com/api/OP_API_XXXXXXX_XXX/overview
 data-platform-project-sql には、sqlの設定ファイルとして、以下のファイルが含まれています。  
 
 * data-platform-project-sql-project-data.sql（データ連携基盤 プロジェクト - プロジェクトデータ）
-* data-platform-project-sql-wbs-element-data.sql（データ連携基盤 プロジェクト - WBS要素データ））
+* data-platform-project-sql-wbs-element-data.sql（データ連携基盤 プロジェクト - WBS要素データ）
+* data-platform-project-sql-network-data.sql（データ連携基盤 プロジェクト - ネットワークデータ）
+* data-platform-project-sql-network-component-data.sql（データ連携基盤 プロジェクト - ネットワーク構成品目データ）
+* data-platform-project-sql-network-component-delivery-schedule-line-data.sql（データ連携基盤 プロジェクト - ネットワーク構成品目納入日程行データ）
 
 ## MySQLのセットアップ / Kubernetesの設定 / SQLテーブルの作成方法
 MySQLのセットアップ / Kubernetesの設定 / 具体的なSQLテーブルの作成方法、については、[mysql-kube](https://github.com/latonaio/mysql-kube)を参照ください。
