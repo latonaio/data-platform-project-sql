@@ -10,8 +10,11 @@ https://api.XXXXXXXX.com/api/OP_API_XXXXXXX_XXX/overview
 data-platform-project-sql には、sqlの設定ファイルとして、以下のファイルが含まれています。  
 
 * data-platform-project-sql-project-data.sql（データ連携基盤 プロジェクト - プロジェクトデータ）
+* data-platform-project-sql-project-doc-data.sql（データ連携基盤 プロジェクト - プロジェクトデータ）
 * data-platform-project-sql-wbs-element-data.sql（データ連携基盤 プロジェクト - WBS要素データ）
+* data-platform-project-sql-wbs-element-doc-data.sql（データ連携基盤 プロジェクト - WBS要素文書データ）
 * data-platform-project-sql-network-data.sql（データ連携基盤 プロジェクト - ネットワークデータ）
+* data-platform-project-sql-network-doc-data.sql（データ連携基盤 プロジェクト - ネットワーク文書データ）
 * data-platform-project-sql-network-component-data.sql（データ連携基盤 プロジェクト - ネットワーク構成品目データ）
 * data-platform-project-sql-network-component-delivery-schedule-line-data.sql（データ連携基盤 プロジェクト - ネットワーク構成品目納入日程行データ）
 
