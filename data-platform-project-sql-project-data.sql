@@ -19,7 +19,7 @@ CREATE TABLE `data_platform_project_project_data`
 	PRIMARY KEY (`Project`),
 
 	CONSTRAINT `DataPlatformProjectProjectDataOwnerBusinessPartner_fk` FOREIGN KEY (`OwnerBusinessPartner`) REFERENCES `data_platform_business_partner_general_data` (`BusinessPartner`),
-	CONSTRAINT `DataPlatformProjectProjectDataPlant_fk` FOREIGN KEY (`PlantBusinessPartner`, `Plant`) REFERENCES `data_platform_plant_general_data` (`BusinessPartner`, `Plant`)
+	CONSTRAINT `DataPlatformProjectProjectDataOwnerPlant_fk` FOREIGN KEY (`OwnerBusinessPartner`, `OwnerPlant`) REFERENCES `data_platform_plant_general_data` (`BusinessPartner`, `Plant`)
 
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4;
